@@ -16,6 +16,7 @@
 
   <body>
     <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="script.js"></script>
   </body>
   <form>
     <h2 class="heading">QR Code Generator.</h2>
@@ -25,12 +26,12 @@
       id="website"
       name="website"
       placeholder="https://google.com"
-      value="https://google.com"
+      value="https://www.linkedin.com/in/venkatesh-chandran-4412439a/"
       required
     />
 
     <div id="qrcode-container">
-      <div id="qrcode" class="qrcode"></div>
+      <div id="qrcode" class="qrcode"  onclick="gotoURL()"></div>
     </div>
 
     <button type="button" class="generateBtn" onclick="generateQRCode()">

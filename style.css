@@ -22,7 +22,7 @@ form {
 
 .heading {
   text-align: center;
-  background: deepskyblue;
+  background: rgb(3, 43, 241);
   color: white;
   margin: 0;
   margin-bottom: 20px;
@@ -41,7 +41,6 @@ form {
 }
 
 input {
-  font-family: poppins;
   transition: 0.3s;
   border-radius: 5px;
   border: #a0a1a580;
@@ -58,4 +57,12 @@ input {
   color: white;
   cursor: pointer;
   margin: 20px;
+}
+
+#qrcode-container {
+  width: 80%;
+  height: 80%;
+  border-radius: 6px;
+  border: #a0a1a580;
+  cursor: pointer;
 }
